@@ -1,0 +1,41 @@
+@keyframes slideIn {
+  from {
+    transform: translate3d(655px, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideIn {
+  animation: slideIn 0.3s ease-in-out;
+}
+
+@keyframes slideOut {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(655px, 0, 0);
+  }
+}
+
+.slideOut {
+  animation: slideOut 0.3s ease-in-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 655px, 0);
+  }
+}
+
+.slideUp {
+  animation: slideUp 0.3s ease-in-out;
+}
